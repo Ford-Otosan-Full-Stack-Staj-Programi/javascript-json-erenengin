@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+    <div class="container">
+      <div class="box" id="OrangeRed">
+        <h3>Assistant:</h3>
+        <p id="OrangeRed-assistant"></p>
+        <hr>
+        <h3>Students:</h3>
+        <ul id="OrangeRed-students"></ul>
+      </div>
+      <div class="box" id="AliceBlue">
+        <h3>Assistant:</h3>
+        <p id="AliceBlue-assistant"></p>
+        <hr>
+        <h3>Students:</h3>
+        <ul id="AliceBlue-students"></ul>
+      </div>
+      <div class="box" id="DeepPink">
+        <h3>Assistant:</h3>
+        <p id="DeepPink-assistant"></p>
+        <hr>
+        <h3>Students:</h3>
+        <ul id="DeepPink-students"></ul>
+      </div>
+    </div>
+  </body>
+</html>
+
+<style>.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.box {
+  width: 50%;
+  height: 300px;
+  border: 10px solid black;
+  margin-right: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+h3 {
+  margin-top: 0;
+}</style>
